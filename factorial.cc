@@ -14,7 +14,8 @@ long long factorialSum(int n){
 
 int main()
 {
-    int n = 5;
-    cout<<factorialSum(5);
+    int n;
+    cin>>n;
+    cout<<factorialSum(n);
     return 0;
 }
